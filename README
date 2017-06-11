@@ -1,6 +1,6 @@
 nix:
 
-nix-shell -p gcc glibc.static -c make
+nix-shell -p gcc glibc.static --command make
 
 Just:
 
